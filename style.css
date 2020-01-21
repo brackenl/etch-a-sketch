@@ -1,0 +1,29 @@
+/* style.css */
+
+h1 {
+    text-align: center;
+}
+
+button {
+    margin: 20px auto;
+    text-align: center;
+    width: 100px;
+    height: 20px;
+    display: block;
+}
+
+.grid-container {
+    height: 500px;
+    width: 500px;
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    margin: 0 auto;
+}
+
+.grid-child {
+    display: block;
+    height: 1fr;
+    width: 1fr;
+    border: 1px solid black;
+}
